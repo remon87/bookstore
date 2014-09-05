@@ -12,3 +12,16 @@ cd ~/Workspace
 
 git clone https://github.com/remon87/ bookstore.git
 
+
+
+#ALWAYS DO THE FOLLOWING AFTER EVERY LAB:
+
+git status
+
+git add .
+
+git commit -m "message goes here"
+
+git push
+
+
