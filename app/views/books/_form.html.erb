@@ -1,9 +1,10 @@
-<h1> Create a New Book</h1>
-<!-- <%= form_for(@book) do |f| %>
+<%= form_for(@book) do |f| %>
 	<%= f.label :title %> <%= f.text_field :title, autofocus: true %> <br><br>
 	<%= f.label :author %> <%= f.text_field :author %> <br><br>
 	<%= f.label :pages %> <%= f.text_field :pages %> <br><br>
 	<%= f.label :price %> <%= f.text_field :price %> <br><br>
-	<p><%= f.submit %></p> -->
-	<%= render 'form' %>
-<% end %>	
+	<p><%= f.submit %>
+		<%= link_to 'Cancel', books_path %>
+	</p>
+<% end %>
+	
